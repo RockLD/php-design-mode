@@ -64,5 +64,6 @@ interface Decorator
 
 //执行
 $canvas = new Canvas();
+//添加装饰器，可以添加同类型的其他装饰器
 $canvas->addDecorator(new ColorDrawDecorator);
 $canvas->draw();
